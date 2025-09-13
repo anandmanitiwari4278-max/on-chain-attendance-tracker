@@ -1,0 +1,15 @@
+[package]
+name = "on-chain-attendance-tracker"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "0xb3db00e33874a3788a4e5fc8cf734606acbfd393e0e7a0ebae3532f176c18000"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
